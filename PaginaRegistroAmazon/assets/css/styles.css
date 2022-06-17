@@ -5,6 +5,32 @@ html {
     box-sizing: inherit;
     }
 
+/* Globales*/
+
+a {
+    text-decoration: none;
+    color: #4c63d4;
+}
+
+a:hover{
+
+    color: #FF7600;
+    text-decoration: underline;
+}
+
+hr {
+    border: 0.5px solid #D8D8D8;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
 /* Header */
 
 .secciones{
@@ -24,8 +50,8 @@ html {
     margin: auto;
     border: 1px solid #D8D8D8;
     border-radius: 5px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
 }
 
 .formulario h1{
@@ -56,4 +82,27 @@ html {
     border: none;
     outline: 0.5px solid #FF7600;
     box-shadow: 0 0 5px 2px rgb(228 121 17 / 50%);
+}
+
+.formulario p {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.formulario p img {
+    width: 10px;
+    height: 12px;
+}
+
+.informacion-contrasena {
+    margin-top: -10px;
+}
+
+.buttom {
+    background-color: hsla(40, 97%, 63%, 0.753);
+}
+
+.buttom:hover{
+    background-color: hsla(40, 99%, 58%, 0.753);
 }
